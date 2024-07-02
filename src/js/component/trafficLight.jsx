@@ -31,19 +31,19 @@ const Trafficlight = () => {
         }
     }, [color]);
 
-    const handleRedClick = () => setColor("red");
-    const handleYellowClick = () => setColor("yellow");
-    const handleGreenClick = () => setColor("green");
+    const capturarColorRed = () => setColor("red");
+    const capturarColorYellow = () => setColor("yellow");
+    const capturarColorGreen = () => setColor("green");
 
     return (
         <div className="text-center">
             <h1>Traffic Light</h1>
             <div className="semafor">
-                <span id="redLight" onClick={handleRedClick} className={classNameRed}></span>
+                <span id="redLight" onClick={capturarColorRed} className={classNameRed}></span>
                 <br />
-                <span id="yellowLight" onClick={handleYellowClick} className={classNameYellow}></span>
+                <span id="yellowLight" onClick={capturarColorYellow} className={classNameYellow}></span>
                 <br />
-                <span id="greenLight" onClick={handleGreenClick} className={classNameGreen}></span>
+                <span id="greenLight" onClick={capturarColorGreen} className={classNameGreen}></span>
             </div>
         </div>
     );
