@@ -10,3 +10,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #555;
+  }
+  #redLight{
+    background-color: rgb(227, 181, 181);
+  }
+  #yellowLight{
+    background-color: rgb(233, 239, 153);
+  }
+  #greenLight{
+    background-color: rgb(145, 216, 168);
+  }
+  .semafor{
+    background-color: black;
+  } 
